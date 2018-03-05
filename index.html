@@ -1,13 +1,65 @@
-<title>Niedziela Handlowa 0.1</title>
-<style>
-body{text-align:center}
-</style>
 
-<body>
-<h1 style="color:#59b1ff; margin-top:50px;margin-bottom:50px">NiedzielaHandlowa</h1>
-
-
-<b>Zakupy zrobisz w poniższych terminach:</b><br><br>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>NiedzielaHandlowa</title>
+    <link href="./static/mui.min.css" rel="stylesheet" type="text/css" />
+    <link href="./static/style.css" rel="stylesheet" type="text/css" />
+    <script src="./static/mui.min.js"></script>
+    <script src="./static/jquery-2.1.4.min.js"></script>
+    <script src="./static/script.js"></script>
+  </head>
+  <body>
+    <div id="sidedrawer" class="mui--no-user-select">
+      <div id="sidedrawer-brand" class="mui--appbar-line-height">
+        <span class="mui--text-title">NiedzielaHandlowa</span>
+      </div>
+      <div class="mui-divider"></div>
+      <ul>
+        <li>
+          <strong>Kalendarz</strong>
+          <ul>
+            <li><a href="#">Najbliższa</a></li>
+            <li><a href="#">Wolne</a></li>
+            <li><a href="#">Handlowe</a></li>
+			<li><a href="#">Dodaj do</a></li>
+          </ul>
+        </li>
+        <li>
+          <strong>Informacje dodatkowe</strong>
+          <ul>
+            <li><a href="#">Hipermarkety</a></li>
+            <li><a href="#">Markety</a></li>
+            <li><a href="#">Małe sklepy</a></li>
+          </ul>
+        </li>
+        <li>
+          <strong>O nas</strong>
+          <ul>
+            <li><a href="#">Kontakt</a></li>
+            <li><a href="#">O nas</a></li>
+            <li><a href="#">Wersja</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <header id="header">
+      <div class="mui-appbar mui--appbar-line-height">
+        <div class="mui-container-fluid">
+          <a class="sidedrawer-toggle mui--visible-xs-inline-block mui--visible-sm-inline-block js-show-sidedrawer">☰</a>
+          <a class="sidedrawer-toggle mui--hidden-xs mui--hidden-sm js-hide-sidedrawer">☰</a>
+          <span class="mui--text-title mui--visible-xs-inline-block mui--visible-sm-inline-block">NiedzielaHandlowa</span>
+        </div>
+      </div>
+    </header>
+    <div id="content-wrapper">
+      <div class="mui--appbar-height"></div>
+      <div class="mui-container-fluid">
+        <br>
+        <p><b>Zakupy zrobisz w poniższych terminach:</b><br><br>
 Marzec: 25<br>
 Kwiecień: 29<br>
 Maj: 6, 27<br>
@@ -19,4 +71,14 @@ Październik: 7, 28<br>
 Listopad: 4, 25<br>
 Grudzień: 2, 23, 30<br><Br><br>
 <a href="https://niedzielahandlowa.waw.pl/kalendarz/" style="background:#59b1ff; color:#ffffff;text-decoration:none;padding:5px">Kalendarz Google 2018</a><br><br>
-Zapraszamy na stronę <a href="https://niedzielahandlowa.waw.pl/">niedzielahandlowa.waw.pl</a>  :-)<br><br>
+</p>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="mui-container-fluid">
+        <br>
+        Stworzone z ♥ przez <a href="https://www.niedzielahandlowa.waw.pl">Michał/NiedzielaHandlowa.waw.pl</a>
+      </div>
+    </footer>
+  </body>
+</html>
